@@ -1,0 +1,19 @@
+{
+  "name": "mini-chain-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "tsc-watch": "^6.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
